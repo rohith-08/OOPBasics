@@ -2,10 +2,10 @@
 {
     internal class Animal
     {
-        public string Name { get; set; }//encapsulation
+        public string Name { get; set; }
         public virtual void MakeSound()
         {
-            Console.WriteLine($"makes the sound {Name}");//polymorphism
+            Console.WriteLine($"makes the sound {Name}");
 
         }
     }
